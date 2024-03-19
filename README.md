@@ -6,6 +6,8 @@ Este es el cliente frontend para el proyecto **SOLVE_THE_X**. Utiliza las siguie
 - **[Typescript](https://www.typescriptlang.org/)**: Un lenguaje de programación tipado que compila a JavaScript.
 - **[Vue 3 & Composition API](https://vuejs.org/guide/extras/composition-api-faq.html)**: Un framework progresivo para construir interfaces de usuario.
 
+  ℹ️ Este proyecto está sin terminar. Las funcionalidades están escritas en el código fuente como "marcaddores de posición" / ideas, de cómo estará estructurada la funcionalidad final, el flujo de datos y funciones.
+
 ## Instalación
 
    - Es necesario tener entorno de desarrollo habilitado al menos con [NodeJS](https://nodejs.org/en) y [npm](https://www.npmjs.com/)
