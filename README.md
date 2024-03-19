@@ -2,12 +2,14 @@
 
 Este es el cliente frontend para el proyecto **SOLVE_THE_X**. Utiliza las siguientes tecnologías:
 
-- **Vite**: Un entorno de desarrollo rápido para aplicaciones web.
-- **Typescript**: Un lenguaje de programación tipado que compila a JavaScript.
-- **Vue 3 & Composition API**: Un framework progresivo para construir interfaces de usuario.
+- **[Vite](https://vitejs.dev/)**: Un entorno de desarrollo rápido para aplicaciones web.
+- **[Typescript](https://www.typescriptlang.org/)**: Un lenguaje de programación tipado que compila a JavaScript.
+- **[Vue 3 & Composition API](https://vuejs.org/guide/extras/composition-api-faq.html)**: Un framework progresivo para construir interfaces de usuario.
 
 ## Instalación
-	- Es necesario tener entorno de desarrollo habilitado al menos con [NodeJS](https://nodejs.org/en) y [npm](https://www.npmjs.com/)
+
+   - Es necesario tener entorno de desarrollo habilitado al menos con [NodeJS](https://nodejs.org/en) y [npm](https://www.npmjs.com/)
+
    - Clona este repositorio en tu máquina local.
    - Ejecuta `npm install` para instalar las dependencias.
 
@@ -18,7 +20,7 @@ Este es el cliente frontend para el proyecto **SOLVE_THE_X**. Utiliza las siguie
    - El cliente consume los endpoints de la API. Asegúrate de configurar correctamente la URL base de la API en tu archivo de configuración.
 
 ##  Autenticación
-   - Durante el inicio de sesión, el JWT recibido se almacena en el `localStorage`. Cada operación de usuario envía este token en el encabezado de autenticación (`authentication header`), y el servidor lo valida con su `TOKEN_SECRET`.
+   - Durante el inicio de sesión, el [JWT](https://openwebinars.net/blog/que-es-json-web-token-y-como-funciona/) recibido se almacena en el `localStorage`. Cada operación de usuario envía este token en el encabezado de autenticación (`authentication header`), y el servidor lo valida con su `TOKEN_SECRET`.
 
 ##  Endpoints
    - El cliente utiliza los siguientes endpoints de la API:
